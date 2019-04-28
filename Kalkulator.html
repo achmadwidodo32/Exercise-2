@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+        <link rel="stylesheet" type="text/css" href="cal.css">
+    <body>
+        <h1> <center> CALCULATOR </center> </h1>  
+        <center>
+            <input type="text" id="number1"/>
+            <input type = "text" id="number2"/>
+            <Br>
+            <Br>
+            <button onclick=" document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) + parseFloat(document.getElementById('number2').value) " > + </button> 
+            
+            <button onclick = " document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) - parseFloat(document.getElementById('number2').value) "> - </button>
+            
+            <button onclick = " document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) * parseFloat(document.getElementById('number2').value) "> X </button>
+            
+            <button onclick = " document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) / parseFloat(document.getElementById('number2').value) "> : </button>
+            <button onclick = " document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) ** parseFloat(document.getElementById('number2').value) "> ^ </button>
+            <button onclick = " document.getElementById('Result').innerHTML = parseFloat(document.getElementById('number1').value) % parseFloat(document.getElementById('number2').value) "> MOD </button>
+            
+         
+
+            <Br>
+            <Br>
+            <p id = "Result" ></p>
+            
+        </center>
+  
+
+    
+    </body>
+</html>
